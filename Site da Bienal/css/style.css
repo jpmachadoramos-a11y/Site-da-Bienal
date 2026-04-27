@@ -1,0 +1,127 @@
+body {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 1280px;
+    border: 2px solid black;
+}
+
+header {
+    height: 150px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: row;/*define eixo principal dos filhos*/
+    justify-content: space-between; /*alinha no eixo principal*/
+    align-items: center; /*alinha no eixo transversal*/
+    
+}
+
+nav {
+    /* background-color: chocolate; */
+    width: 700px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none; /*define o bullet da lista*/
+}
+
+ul li {
+    font-size: 20px;
+    
+}
+
+ul li a {
+    color: white;
+    text-decoration: none; /*tira sublinhado do link*/
+    background-color: rgb(32, 31, 31);
+    padding: 8px 24px;
+    border-radius: 24px; /*arredonda as bordas*/
+}
+
+ul li a:hover {
+    color: black;
+    background-color: darkorange;
+    text-decoration: underline;
+}
+
+/*AQUI COMEÇA O MAIN - CONTEUDO PRINCIPAL*/
+
+main {
+    background-color: chocolate;
+}
+
+#secao01 {
+    display: flex;
+}
+
+.noticia{
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.paidaimagemedoparagrafo {
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    p {
+    width: 150px;
+}
+}
+
+#lateral_esq {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#secao02 {
+    width: 840px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#miranha {
+    display: flex;
+}
+
+.textos {
+    margin-left: 10px;
+}
+
+#laranjinha {
+    display: flex;
+    background-color: orange;
+    margin-top: 20px;
+    padding: 20px 16px;
+}
+
+aside {
+    border: 2px solid blue;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        text-align: center;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none; /*tira sublinhado do link*/
+    background-color: rgb(32, 31, 31);
+    padding: 8px 24px;
+    border-radius: 24px; /*arredonda as bordas*/
+
+}
+
